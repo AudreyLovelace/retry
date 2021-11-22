@@ -30,7 +30,7 @@ body {
 #city {
   background-color: rgba(247, 224, 241, 0.3);
   padding-left: 20px;
-  width: 360px;
+  width: 320px;
   outline: none;
 }
 #city:focus {
