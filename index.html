@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <form>
+          <input
+            id="city"
+            type="search"
+            placeholder="Enter a city..."
+            value="New York"
+          />
+          <input id="submit" type="submit" value="Search" />
+        </form>
+      </header>
+      <header>
+        <h1>New York</h1>
+        <h2>Sunday 22:12</h2>
+        <h3>cloudy</h3>
+      </header>
+      <main>
+        <img src="" alt="" />
+        <h4>11<span>°C</span></h4>
+        <ul>
+          <li>Humidity:<span id="humidity"></span>%</li>
+          <li>Wind:<span id="wind"></span>km/h</li>
+        </ul>
+      </main>
+      <footer></footer>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
